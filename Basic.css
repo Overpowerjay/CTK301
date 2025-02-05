@@ -1,0 +1,29 @@
+h1 {
+    color:red;
+    background-color:blue;
+}
+ 
+.turned {
+    color:red;
+}
+
+#specialh2 {
+    color:#00FF00;
+    background-color:brown;
+}
+
+h2 {
+    color:orange;
+}
+
+a {
+    color:chartreuse;
+}
+
+a:visited {
+    color:gray;
+}
+
+a:hover {
+    color:red;
+}
