@@ -1,0 +1,97 @@
+#wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); 
+    grid-column-gap: 24px;
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  
+  
+  header {
+    grid-column: span 12;
+    background-color: blue;
+    padding-left: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, #0a6afa, #0069e3, #0066cb, #0062b2, #055c98);
+  }
+
+  header a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav {
+    grid-column: span 12;
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, #0a6afa, #0069e3, #0066cb, #0062b2, #055c98);
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    width: 300px;
+    display: inline-block;
+  }
+  
+  
+  nav li a {
+    display: block;
+    background-color: blue;
+    border: 1px solid black;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, #0a6afa, #0069e3, #0066cb, #0062b2, #055c98);
+  }
+
+  section {
+    grid-column: span 4;
+  }
+  
+  main {
+    grid-column: span 9;
+  }
+  
+  main img {
+    float: left;
+    margin-right: 24px;
+    margin-bottom: 0 24px 24px 24px;
+  }
+
+  .floatright { float: right;
+
+  }
+  main a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  aside {
+    grid-column: span 3;
+    background-color: lightblue;
+    color: black;
+    padding: 24px;
+    font-weight: bold;
+    text-align: justify;
+  }
+
+  h2 {
+    border-bottom: 3px solid blue;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  footer {
+    background-color: red;
+    color: white;
+    grid-column: span 12;
+    padding-left: 24px;
+  }
+  
